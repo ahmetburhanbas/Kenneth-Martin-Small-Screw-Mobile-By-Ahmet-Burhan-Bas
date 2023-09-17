@@ -8,7 +8,7 @@ A gif to compare my version and the original:
 
 To see other paintings of Kenneth Martin use this link: https://www.tate.org.uk/art/artists/kenneth-martin-1585
 
-# How does the path function work?
+## How does the path function work?
 
 Example Code:
 ````
@@ -29,11 +29,14 @@ This path can be used for various purposes in SwiftUI, such as drawing shapes or
 
 
 
-# How did I use the same colors in the painting?
+## How did I use the same colors in the painting?
+Example Code:
 ````
 let yellowish = Color(red: 0.78, green: 0.65, blue: 0.35, opacity: 1)
 ````
 Color: Color is a SwiftUI type used to represent colors. SwiftUI allows you to define colors using various constructors, and in this case, it's a custom color.
+
+So I basically defined the same colors and used them on my lines and background.
 
 red: 0.78, green: 0.65, blue: 0.35, opacity: 1: This part specifies the color's components. It's using the RGB (Red, Green, Blue) color model to define the color. Each component is represented as a floating-point number ranging from 0 to 1, where 0 is no intensity, and 1 is full intensity. Additionally, the opacity parameter defines the transparency of the color, with 1 meaning fully opaque (no transparency).
 
@@ -41,3 +44,13 @@ red: 0.78: This specifies the red component of the color and is set to 0.78, whi
 green: 0.65: This specifies the green component of the color and is set to 0.65, which means it's a moderate-intensity green.
 blue: 0.35: This specifies the blue component of the color and is set to 0.35, which means it's a relatively low-intensity blue.
 opacity: 1: This sets the opacity of the color to 1, indicating that the color is fully opaque.
+
+
+## How did I know the exact coordinates of the lines?
+
+I used a program called "Geogebra" which is a dynamic mathematics software for all levels of education that brings together geometry, algebra, spreadsheets, graphing, statistics, and calculus. In this case, I used the Graphing Calculator of GeoGebra to find the exact points of the starting and ending points of my lines. 
+Link for my calculation: https://www.geogebra.org/calculator/jq6mczhv
+
+<img width="1434" alt="Screenshot 2023-09-18 at 02 19 28" src="https://github.com/ahmetburhanbas/Kenneth-Martin-Small-Screw-Mobile-By-Ahmet-Burhan-Bas/assets/82709177/d92aeebd-ed18-4c4e-95c5-aee0f39bf702">
+
+
