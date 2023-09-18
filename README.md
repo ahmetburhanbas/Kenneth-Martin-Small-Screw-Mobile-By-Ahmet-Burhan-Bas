@@ -53,9 +53,6 @@ Path() { path in
 
 .animation(.easeOut(duration: 10.0), value: percentage): This applies an animation to the view, making the trimming of the path (specified by percentage) ease out over a duration of 10 seconds. This means that the path will gradually appear or disappear based on the changing value of the percentage, creating a smooth animation effect.
 
-## How did I get the timing of all the lines right?
-
-
 ## How did I use the same colors in the painting?
 Example Code:
 ````
